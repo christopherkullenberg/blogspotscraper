@@ -16,5 +16,13 @@ This script does NOT work with the official Google blogs hosted on blogspot. It 
 
 This is just a quick and dirty script that could work as a scaffold for writing more precise scraping features.
 
+Known error: Some Blogspot blogs have a different way of handling unique posts. If the script does not work, change the following line:
+
+    div = soup.find(id="post-body-" + findID[0]) #This retrieves each post content
+
+to
+
+    div = soup.find("div", class_="post-body")
+
 ### Warning!
 By repeatedly downloading web pages, you might get temporarily banned from the service. Use on your own risk.

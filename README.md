@@ -1,4 +1,4 @@
-# Bloggerscraper
+# Blogspotscraper
 A Python 3 script for scraping a Blogspot blog recursively. Saves each post as a new html file, which cleaned to remove most of the html code.
 
 ### Requirements

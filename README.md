@@ -1,5 +1,5 @@
 # Blogspotscraper
-A Python 3 script for scraping a Blogspot blog recursively. Saves each post as a new html file, which cleaned to remove most of the html code.
+A Python 3 script for scraping a Blogspot blog recursively. Saves each post as a new html file, which is cleaned from most of its html code.
 
 ### Requirements
 This script uses BeautifulSoup. Install with:
